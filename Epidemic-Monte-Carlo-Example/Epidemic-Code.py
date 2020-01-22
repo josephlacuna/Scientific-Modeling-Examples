@@ -157,5 +157,5 @@ plt.close()
 # Animating Simulation of Grid Space
 # requires ffmpeg
 ani = animation.ArtistAnimation(fig, grids, blit=True)
-ani.save("epidemic_animation_{}_{}.mp4".format(alpha,beta), dpi=300, fps=10, extra_args=['-vcodec', 'libx264'])
+ani.save("epidemic-animation-{}-{}.mp4".format(alpha,beta), dpi=300, fps=10, extra_args=['-vcodec', 'libx264'])
 plt.close()
