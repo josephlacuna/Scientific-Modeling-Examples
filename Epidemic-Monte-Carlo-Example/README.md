@@ -1,0 +1,1 @@
+This code is from a programming modeling class that is an implementation of Markov Chain methods on an epidemic simulation for a 2-D environment. This code creates an array with randomly assigned values representative of a type of individual (healthy, immune, or sick) and proceeds to play out the spread of disease between neighboring indivuals. A graph and animation are produced.
